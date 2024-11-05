@@ -35,16 +35,6 @@
 			path = DTDD;
 			sourceTree = "<group>";
 		};
-		C98864872CBAFA9600486BE9 /* DTDDTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = DTDDTests;
-			sourceTree = "<group>";
-		};
-		C98864912CBAFA9600486BE9 /* DTDDUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = DTDDUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				C98864762CBAFA9500486BE9 /* DTDD */,
-				C98864872CBAFA9600486BE9 /* DTDDTests */,
-				C98864912CBAFA9600486BE9 /* DTDDUITests */,
 				C98864752CBAFA9500486BE9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				C98864862CBAFA9600486BE9 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				C98864872CBAFA9600486BE9 /* DTDDTests */,
-			);
 			name = DTDDTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				C98864902CBAFA9600486BE9 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				C98864912CBAFA9600486BE9 /* DTDDUITests */,
 			);
 			name = DTDDUITests;
 			packageProductDependencies = (
